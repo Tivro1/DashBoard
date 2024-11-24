@@ -1,0 +1,72 @@
+.navDiv .active {
+    background-color: rgb(139, 195, 139); /* Green background for active link */
+    border-left: 2px solid rgb(243, 103, 3); /* Yellow left border for active link */
+    color: white; /* Ensure text remains white for active link */
+  }
+  .navDiv a:hover {
+    color: yellow; /* Hover text color */
+  }
+
+  .shadow_box 
+  {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border: 1px ;
+  }
+  .inSide_box
+  {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .cardBox
+  {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  .nvaRes
+  {
+    @media (max-width: 426px) {
+      
+      margin-top: -320px;
+  
+      position: fixed;
+    }
+  }
+  .home
+  {
+    @media (max-width: 426px) {
+      
+      margin-top: 80px;
+      margin-left: 50px;
+    }
+  }
+  .haderBar
+  {
+     @media(max-width: 426px)
+     {
+      display: flex;
+      flex-direction: row;
+      margin-left: -100px;  
+     width: max-content;
+      justify-content: space-between;
+     }
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+  .main-container {
+    display: flex;
+    height: 100vh; /* Full viewport height to prevent shifts */
+    align-items: start; /* Align content to the top */
+  }
+  .main-container > .NavVar {
+    flex-shrink: 0; /* Prevents shrinking */
+  }
+  .main-container {
+    display: flex;
+    height: 100vh; /* Full viewport height to prevent shifts */
+    align-items: start; /* Align content to the top */
+  }
